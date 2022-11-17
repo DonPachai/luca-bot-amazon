@@ -7,7 +7,6 @@ Contributers:
 License: MIT
 */
 
-var port = process.env.PORT || 3002
 
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
