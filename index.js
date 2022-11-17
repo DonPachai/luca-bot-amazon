@@ -7,9 +7,7 @@ Contributers:
 License: MIT
 */
 
-var server=app.listen(port,function() 
-                      {
-console.log("app running on port 8080"); });
+var port = process.env.PORT || 3002
 
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
